@@ -1,0 +1,19 @@
+{
+  "pagina": [
+    {
+      "id": 1,
+      "titulo": "JavaScript",
+      "contenido": "JavaScript se encarga de la parte logica de la pagina"
+    },
+    {
+      "id": 2,
+      "titulo": "CSS",
+      "contenido": "Css se encarga de la parte visual"
+    },
+    {
+      "id": 3,
+      "titulo": "HTML",
+      "contenido": "Html se encarga de la estructura de la pagina"
+    }
+  ]
+}

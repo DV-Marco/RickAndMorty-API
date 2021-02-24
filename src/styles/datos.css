@@ -1,0 +1,44 @@
+.list {
+  border: 1px solid rgba(158, 158, 164, 0.25);
+  border-radius: 4px;
+  font-family: "Cascadia Code";
+  width: 210px;
+  height: auto;
+  text-align: center;
+  display: flex;
+  flex-flow: column wrap;
+  padding: 10px;
+  justify-content: center;
+  margin: 10px;
+}
+
+.icons {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.star{
+  cursor: pointer;
+  padding: 5px;
+  margin-bottom: 7px;
+}
+
+.star:hover{
+  filter: drop-shadow(0 0 0.75rem gray);
+}
+
+.star_sel{
+  color: #cc9f35;
+  cursor: pointer;
+  padding: 5px;
+}
+
+.tipografia{
+  position: relative;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  margin-top: -10px;
+  margin-bottom: -10px;
+  justify-content: center;
+}
