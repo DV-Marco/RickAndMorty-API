@@ -9,6 +9,12 @@ const styles = (theme) => ({
   }
 });
 
+const html = () => {
+  return (
+    <h1>Hola mundo</h1>
+  )
+}
+
 export class Personas extends Component {
   state = {
     characters: []
@@ -24,36 +30,11 @@ export class Personas extends Component {
       });
   }
 
-  myList = [
-    {
-      title: "Java",
-      content: "Is Java",
-      letter: "JV",
-      color: "orange"
-    },
-    {
-      title: "Python",
-      content: "Is Python",
-      letter: "Py",
-      color: "blue"
-    },
-    {
-      title: "JavaScript",
-      content: "Is JavaScript",
-      letter: "JS",
-      color: "yellow"
-    },
-    {
-      title: "Kotlin",
-      content: "Is Kotlin",
-      letter: "Kt",
-      color: "blue"
-    }
-  ];
-
   render() {
     return (
       <div id="root">
+        <div>{html}
+        </div>
         <GridList>
           {this.state.characters.map((char) => (
             <Datos
