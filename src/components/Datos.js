@@ -73,7 +73,7 @@ export class Datos extends Component {
         </h1>
         <Card>
           <CardContent>
-            <Typography variant="h6" component="h2">
+            <Typography variant="h6" component="h3">
               {this.props.content}
             </Typography>
           </CardContent>
